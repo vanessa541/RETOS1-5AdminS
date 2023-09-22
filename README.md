@@ -44,13 +44,15 @@ verificacion del status
 
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/6f006a2c-ea2f-4aef-8169-aa8aa650ac6f)
 
-ejecucion manual de script 
-![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/206ed1cf-962a-4f17-935e-f2041a521d43)
+
 
  # Reto 2 temporizador
 
  script para archivo 
  ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/56f1fb58-aa59-42f2-99cd-18b6ce808ee5)
+ 
+ejecucion manual de script 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/206ed1cf-962a-4f17-935e-f2041a521d43)
 
 comprobacion de la creacion del archivo
 
@@ -64,8 +66,12 @@ crwacion de archivo mi-log.timer, para ejecutar el servicio cada 5min
 
 
 
-despues de realizar estos archivos, iniciarlos
+despues de realizar estos archivos .service y .timer , iniciarlos
 
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/9f92bb57-df01-4d48-a0f2-f61c9cc47f73)
 
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/d3a2ca8c-09e7-4c16-a2e1-438696f44562)
+
+en el archivo /var/log/mi-log.log comprobamos si el servicio corre cada 5minutos
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/ba858995-a809-43d6-b607-ce355af4a4b8)
+
