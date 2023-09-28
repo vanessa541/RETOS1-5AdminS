@@ -75,3 +75,23 @@ despues de realizar estos archivos .service y .timer , iniciarlos
 en el archivo /var/log/mi-log.log comprobamos si el servicio corre cada 5minutos
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/ba858995-a809-43d6-b607-ce355af4a4b8)
 
+# Reto dependencias
+servicio apache corriendo 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/29e1b3b9-3389-45de-8141-f36fc9ca009d)
+
+servicio B corriendo 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/ca2e694d-4081-4b9b-a569-3e6102dd0a73)
+
+
+se detiene el servicio apache 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/e2abb6b9-5d8f-430a-aa47-782687ac4139)
+
+
+iniciamos nuevamente el sercio B y ya no corre
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/ef6ba1ac-930c-4a15-9072-4cfd19f5f068)
+
+ultima ejecucion
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/7c21fc20-f0d8-4c47-9e77-08ccf4984470)
+
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/dbb3480b-930c-47b7-aeba-4b76d844bc3a)
+
