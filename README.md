@@ -1,4 +1,4 @@
-# RETOS1-5AdminS
+# RETOS0-5AdminS
 ## 0 Reto cambio de inicio por defecto:
 - Descripción: Verifica cual es el modo en que inicia tu Linux por defecto, cambia el modo y
 comprueba el cambio. Deja por defecto el modo que prefieras.
@@ -75,7 +75,7 @@ despues de realizar estos archivos .service y .timer , iniciarlos
 en el archivo /var/log/mi-log.log comprobamos si el servicio corre cada 5minutos
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/ba858995-a809-43d6-b607-ce355af4a4b8)
 
-# Reto dependencias
+# 3 Reto dependencias
 servicio apache corriendo 
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/29e1b3b9-3389-45de-8141-f36fc9ca009d)
 
@@ -94,4 +94,37 @@ ultima ejecucion
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/7c21fc20-f0d8-4c47-9e77-08ccf4984470)
 
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/dbb3480b-930c-47b7-aeba-4b76d844bc3a)
+
+# 4 Reto limitacion de CPU  a servicio 
+creacion de un script con un bucle infinito
+
+creacion del servicio 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/0bd7c02c-af24-44a3-8fa8-e92d8a110688)
+
+ejecuión del servicio sin cuota
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/c31b1db1-7a7e-43e2-bde1-691bf0583fd6)
+
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/42f89554-b34a-4464-8207-f6b479d46231)
+
+ejecucion del servicio con cuotas activadas ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/dd3f859f-5af0-4ad6-8632-d4ec759e82ca)
+
+
+# reto 5
+
+descargaar sendmail-> sudo apt-get install sendmail
+creacion de archivo /etc/mensaje.txt  con texto a enviar
+corecciones en script:
+redirección de-> echo "Correo enviado a $destinatario con el contenido de $archivo">>/var/log/enviar-email.log
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/e5eb2f5c-f072-4e9d-9e8c-2f16ca4a8b00)
+
+dar permisos de ejecución ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/a3756557-e37a-4a3e-8a3c-b85197efde42)
+
+ejecucion de servicio 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/84436df2-a3ca-4a91-b15e-ed43f71bd007)
+
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/47c8b5a7-116c-4f6e-aa1d-1d95b28af800)
+
+
+verificar el envio: en usuario pato 
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/0eaa47e9-633b-417c-99b0-da1111a1efdb)
 
