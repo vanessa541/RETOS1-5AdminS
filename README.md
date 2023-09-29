@@ -97,6 +97,7 @@ ultima ejecucion
 
 # 4 Reto limitacion de CPU  a servicio 
 creacion de un script con un bucle infinito
+![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/167a1b9a-6052-4990-9714-b5a0da1cec1e)
 
 creacion del servicio 
 ![imagen](https://github.com/vanessa541/RETOS1-5AdminS/assets/111407329/0bd7c02c-af24-44a3-8fa8-e92d8a110688)
